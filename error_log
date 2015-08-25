@@ -1,0 +1,249 @@
+[24-Aug-2015 07:37:25 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 10
+[24-Aug-2015 07:46:26 America/Chicago] PHP Fatal error:  Call to undefined function getPosts() in /home/cuimip/public_html/crud-blog/allposts.php on line 1
+[24-Aug-2015 07:46:28 America/Chicago] PHP Fatal error:  Call to undefined function getPosts() in /home/cuimip/public_html/crud-blog/allposts.php on line 1
+[24-Aug-2015 07:47:08 America/Chicago] PHP Fatal error:  Call to undefined function getPosts() in /home/cuimip/public_html/crud-blog/allposts.php on line 1
+[24-Aug-2015 07:48:46 America/Chicago] PHP Fatal error:  Call to undefined function getPosts() in /home/cuimip/public_html/crud-blog/allposts.php on line 1
+[24-Aug-2015 07:49:11 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 11
+[24-Aug-2015 07:49:13 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 11
+[24-Aug-2015 07:49:28 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 13
+[24-Aug-2015 07:52:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM posts' at line 1' in /home/cuimip/public_html/crud-blog/rooting-functions.php:12
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(12): PDO->query('SELECT SUBSTR(t...')
+#1 /home/cuimip/public_html/crud-blog/allposts.php(14): getPosts()
+#2 /home/cuimip/public_html/crud-blog/index.php(20): include('/home/cuimip/pu...')
+#3 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 12
+[24-Aug-2015 07:52:59 America/Chicago] PHP Fatal error:  Call to undefined function getPosts() in /home/cuimip/public_html/crud-blog/allposts.php on line 14
+[24-Aug-2015 07:53:21 America/Chicago] PHP Fatal error:  Call to undefined function getPosts() in /home/cuimip/public_html/crud-blog/allposts.php on line 14
+[24-Aug-2015 10:10:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 26
+[24-Aug-2015 10:10:18 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 26
+[24-Aug-2015 10:10:21 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 27
+[24-Aug-2015 10:10:23 America/Chicago] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 27
+[24-Aug-2015 10:20:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 6
+[24-Aug-2015 10:20:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 6
+[24-Aug-2015 10:20:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 6
+[24-Aug-2015 10:20:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 6
+[24-Aug-2015 10:21:48 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cuimip/public_html/crud-blog/login.php on line 6
+[24-Aug-2015 10:21:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 7
+[24-Aug-2015 10:21:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 7
+[24-Aug-2015 10:22:08 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/cuimip/public_html/crud-blog/login.php on line 6
+[24-Aug-2015 10:22:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 7
+[24-Aug-2015 10:22:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 7
+[24-Aug-2015 10:26:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 10
+[24-Aug-2015 10:26:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 10
+[24-Aug-2015 10:26:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 10
+[24-Aug-2015 10:26:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/login.php on line 10
+[24-Aug-2015 10:27:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:27:24 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:27:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:27:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:28:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:28:17 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:28:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:28:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:28:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:28:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:28:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:29:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:29:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:29:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:2) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:29:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:2) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:29:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:29:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:29:38 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:30:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:30:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:31:22 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 19
+[24-Aug-2015 10:31:22 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 19
+[24-Aug-2015 10:32:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:32:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 23
+[24-Aug-2015 10:32:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 22
+[24-Aug-2015 10:32:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 22
+[24-Aug-2015 10:32:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:32:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 22
+[24-Aug-2015 10:32:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 22
+[24-Aug-2015 10:32:50 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:32:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:33:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:33:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:33:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:33:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:35:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 35
+[24-Aug-2015 10:35:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 35
+[24-Aug-2015 10:35:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:36:22 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 36
+[24-Aug-2015 10:36:22 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 36
+[24-Aug-2015 10:36:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:36:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 36
+[24-Aug-2015 10:36:23 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 36
+[24-Aug-2015 10:36:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:36:42 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:36:42 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:36:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:36:45 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:36:45 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:36:45 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:36:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:36:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:36:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:37:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:37:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:37:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:37:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:37:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:37:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:37:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:37:36 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 3
+[24-Aug-2015 10:37:36 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:37:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/index.php:12) in /home/cuimip/public_html/crud-blog/index.php on line 24
+[24-Aug-2015 10:39:10 America/Chicago] PHP Fatal error:  Call to undefined function checkLogin() in /home/cuimip/public_html/crud-blog/login.php on line 10
+[24-Aug-2015 11:02:01 America/Chicago] PHP Warning:  include(/crud-blog?page=login): failed to open stream: No such file or directory in /home/cuimip/public_html/crud-blog/index.php on line 33
+[24-Aug-2015 11:02:01 America/Chicago] PHP Warning:  include(): Failed opening '/crud-blog?page=login' for inclusion (include_path='.:/opt/php54/lib/php') in /home/cuimip/public_html/crud-blog/index.php on line 33
+[24-Aug-2015 11:02:19 America/Chicago] PHP Fatal error:  Cannot redeclare getPosts() (previously declared in /home/cuimip/public_html/crud-blog/rooting-functions.php:10) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 21
+[24-Aug-2015 11:03:42 America/Chicago] PHP Fatal error:  Call to undefined function checkLogin() in /home/cuimip/public_html/crud-blog/login.php on line 9
+[24-Aug-2015 11:04:28 America/Chicago] PHP Fatal error:  Call to undefined function checkLogin() in /home/cuimip/public_html/crud-blog/login.php on line 6
+[24-Aug-2015 11:04:49 America/Chicago] PHP Fatal error:  Cannot redeclare getPosts() (previously declared in /home/cuimip/public_html/crud-blog/rooting-functions.php:10) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 21
+[24-Aug-2015 11:58:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aaaaaaaaa' for key 'title'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:55
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(55): PDO->query('INSERT INTO pos...')
+#1 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 55
+[24-Aug-2015 11:58:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aaaaaaaaa' for key 'title'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:55
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(55): PDO->query('INSERT INTO pos...')
+#1 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 55
+[24-Aug-2015 11:59:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'aaaaa' for key 'title'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:55
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(55): PDO->query('INSERT INTO pos...')
+#1 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 55
+[24-Aug-2015 12:00:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'modified' in 'field list'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:11
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(11): PDO->query('SELECT LEFT(con...')
+#1 /home/cuimip/public_html/crud-blog/allposts.php(14): getPosts()
+#2 /home/cuimip/public_html/crud-blog/index.php(30): include('/home/cuimip/pu...')
+#3 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 11
+[24-Aug-2015 12:01:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'modified' in 'field list'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:11
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(11): PDO->query('SELECT LEFT(con...')
+#1 /home/cuimip/public_html/crud-blog/allposts.php(14): getPosts()
+#2 /home/cuimip/public_html/crud-blog/index.php(30): include('/home/cuimip/pu...')
+#3 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 11
+[24-Aug-2015 12:24:40 America/Chicago] PHP Fatal error:  Call to undefined function getPost() in /home/cuimip/public_html/crud-blog/single.php on line 4
+[24-Aug-2015 12:24:49 America/Chicago] PHP Fatal error:  Call to undefined function getPost() in /home/cuimip/public_html/crud-blog/single.php on line 4
+[24-Aug-2015 13:50:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'adsf' for key 'title'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:77
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(77): PDO->query('UPDATE posts SE...')
+#1 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 77
+[24-Aug-2015 13:50:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'fffffffffff' for key 'title'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:77
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(77): PDO->query('UPDATE posts SE...')
+#1 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 77
+[24-Aug-2015 13:50:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdfasdfasdfasdfads' for key 'title'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:77
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(77): PDO->query('UPDATE posts SE...')
+#1 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 77
+[24-Aug-2015 13:51:57 America/Chicago] PHP Fatal error:  Call to undefined function getPost() in /home/cuimip/public_html/crud-blog/edit.php on line 2
+[24-Aug-2015 14:56:55 America/Chicago] PHP Warning:  require_once(lib/swift_required.php): failed to open stream: No such file or directory in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 102
+[24-Aug-2015 14:56:55 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'lib/swift_required.php' (include_path='.:/opt/php54/lib/php') in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 102
+[24-Aug-2015 14:56:58 America/Chicago] PHP Warning:  require_once(lib/swift_required.php): failed to open stream: No such file or directory in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 102
+[24-Aug-2015 14:56:58 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'lib/swift_required.php' (include_path='.:/opt/php54/lib/php') in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 102
+[24-Aug-2015 15:01:21 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:25 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:27 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:36 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:43 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:45 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:48 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:50 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:01:53 America/Chicago] PHP Fatal error:  Class 'Swift_Transport_EsmtpTransport' not found in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/SmtpTransport.php on line 24
+[24-Aug-2015 15:02:39 America/Chicago] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class Swift_Transport_Esmtp_AuthHandler does not exist' in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php:309
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(309): ReflectionClass->__construct('Swift_Transport...')
+#1 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(112): Swift_DependencyContainer->_createNewInstance('transport.authh...')
+#2 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(370): Swift_DependencyContainer->lookup('transport.authh...')
+#3 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(365): Swift_DependencyContainer->_lookupRecursive('transport.authh...')
+#4 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(348): Swift_DependencyContainer->_lookupRecursive(Array)
+#5 /home/cuimip/public in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php on line 309
+[24-Aug-2015 15:03:00 America/Chicago] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class Swift_Transport_Esmtp_AuthHandler does not exist' in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php:309
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(309): ReflectionClass->__construct('Swift_Transport...')
+#1 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(112): Swift_DependencyContainer->_createNewInstance('transport.authh...')
+#2 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(370): Swift_DependencyContainer->lookup('transport.authh...')
+#3 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(365): Swift_DependencyContainer->_lookupRecursive('transport.authh...')
+#4 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(348): Swift_DependencyContainer->_lookupRecursive(Array)
+#5 /home/cuimip/public in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php on line 309
+[24-Aug-2015 15:03:03 America/Chicago] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class Swift_Transport_Esmtp_AuthHandler does not exist' in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php:309
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(309): ReflectionClass->__construct('Swift_Transport...')
+#1 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(112): Swift_DependencyContainer->_createNewInstance('transport.authh...')
+#2 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(370): Swift_DependencyContainer->lookup('transport.authh...')
+#3 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(365): Swift_DependencyContainer->_lookupRecursive('transport.authh...')
+#4 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(348): Swift_DependencyContainer->_lookupRecursive(Array)
+#5 /home/cuimip/public in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php on line 309
+[24-Aug-2015 15:03:11 America/Chicago] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class Swift_Transport_Esmtp_AuthHandler does not exist' in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php:309
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(309): ReflectionClass->__construct('Swift_Transport...')
+#1 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(112): Swift_DependencyContainer->_createNewInstance('transport.authh...')
+#2 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(370): Swift_DependencyContainer->lookup('transport.authh...')
+#3 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(365): Swift_DependencyContainer->_lookupRecursive('transport.authh...')
+#4 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php(348): Swift_DependencyContainer->_lookupRecursive(Array)
+#5 /home/cuimip/public in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/DependencyContainer.php on line 309
+[24-Aug-2015 15:04:25 America/Chicago] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/answer/14257 mj1sm10961284obc.25 - gsmtp
+"' in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:383
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(281): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('535-5.7.8 Usern...', Array)
+#1 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(243): Swift_Transport_AbstractSmtpTransport->executeCommand('RSET\r\n', Array, Array)
+#2 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php(55): Swift_Transport_EsmtpTransport->executeCommand('RSET\r\n', Array)
+#3 /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift in /home/cuimip/public_html/crud-blog/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 383
+[24-Aug-2015 15:20:14 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 96
+[24-Aug-2015 16:21:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/rooting-functions.php:97) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 117
+[24-Aug-2015 17:13:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created' in 'field list'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:11
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(11): PDO->query('SELECT LEFT(con...')
+#1 /home/cuimip/public_html/crud-blog/allposts.php(12): getPosts()
+#2 /home/cuimip/public_html/crud-blog/index.php(30): include('/home/cuimip/pu...')
+#3 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 11
+[24-Aug-2015 17:13:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created' in 'field list'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:11
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(11): PDO->query('SELECT LEFT(con...')
+#1 /home/cuimip/public_html/crud-blog/allposts.php(12): getPosts()
+#2 /home/cuimip/public_html/crud-blog/index.php(30): include('/home/cuimip/pu...')
+#3 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 11
+[24-Aug-2015 17:14:15 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'created' in 'field list'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:11
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(11): PDO->query('SELECT LEFT(con...')
+#1 /home/cuimip/public_html/crud-blog/allposts.php(12): getPosts()
+#2 /home/cuimip/public_html/crud-blog/index.php(30): include('/home/cuimip/pu...')
+#3 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 11
+[24-Aug-2015 18:31:25 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 147
+[24-Aug-2015 18:31:51 America/Chicago] PHP Warning:  file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=Your secey key&amp;response=03AHJ_Vusn8gc54GRbglESAWkI_q_JzRuOI9QR_-qyRj-cE5zCVj9eBakGUki2-VWKxiD6JMg1vqtjl0G4N2tVx4tRnNS5UiaQrkVx4IVExsQbA9b46cS68sb9t4CQ3t1YSB_skhBDzaET3B3wzlRBL6RWTGPDUD7yl90dHZHdFGae_6qKc0rcAcgkdL614cEpTKWIm-oCojwEjW9iKy0WO1O_mzRC14n33S6dRkZEBDpS21zvG45xM8HTplTjEvr-nWjewC2lrDF-ibckrFL0k1aqIcIrNT7jDySB8ZUnKDO7v1FrgRXGnv4yNSIGvVSCeEqFI40nN88iBoSgIkcCTG615QgYVyLwfQt0xez6wo8f1M6XxX9FLmbGfUqCFxU9fhtOumgIAr4yT1Gv1erIur7BlZJCAV35tFA93zO1M2RsziQiRyy0-P5-51yoWp4pAyg9ykztgV1by2sJwmBPgyUFwxBu2BlfbHuErrQ-z3Ea0TwimW1Pu1iznPB1Wgfq_iEfgv93TkDH6_9bYpfopCyeZV09aNIFo3Eefp7i7NWUx08UxbRznjMZ85dfZiAxFeaIjMSoXkl-uCThlaVrGb0v6slUIarc6CbmUgJJYJgr_ya83MoH8xqLyDC1J7UGiCaiMbAhGuIaSo42Jr0hwJnHzulWu8JGiBt7HUF0yWHCz41wfPpRNBSENuQLIJTscRpP5iTff2KIbJVwXtEA4XK6vV3ifdI258xHJlgsRI6JD2ia7thKwuO8v-85NnTD13AdfLNNOwDV7LSphCwITtn1Ev4EybvXtw&amp;remoteip5.13.115.182): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 91
+[24-Aug-2015 18:31:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/cuimip/public_html/crud-blog/rooting-functions.php:87) in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 102
+[24-Aug-2015 18:32:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'title'' in /home/cuimip/public_html/crud-blog/rooting-functions.php:100
+Stack trace:
+#0 /home/cuimip/public_html/crud-blog/rooting-functions.php(100): PDO->query('INSERT INTO pos...')
+#1 {main}
+  thrown in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 100
+[24-Aug-2015 18:33:35 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 141
+[24-Aug-2015 18:44:40 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 148
+[24-Aug-2015 18:44:42 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 148
+[24-Aug-2015 18:45:07 America/Chicago] PHP Parse error:  syntax error, unexpected '("https://www.goo' in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 90
+[24-Aug-2015 18:46:35 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 90
+[24-Aug-2015 19:23:21 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 167
+[24-Aug-2015 19:23:23 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 167
+[24-Aug-2015 19:23:36 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 91
+[24-Aug-2015 19:26:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 84
+[24-Aug-2015 19:29:05 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 91
+[24-Aug-2015 19:35:59 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 84
+[24-Aug-2015 19:50:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/cuimip/public_html/crud-blog/rooting-functions.php on line 92
